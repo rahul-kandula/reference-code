@@ -5,7 +5,7 @@
     git config --list
     git config user.email
     git config --global user.name "Rhaul"
-    git config --global user.email ""
+    git config --global user.email "rahulkumar.kandula@gmail.com"
 
 -- Basic Commands to check in or revert code --
     git init
@@ -37,6 +37,7 @@
 -- Commands to connect to a remote repo -- 
     git remote
     git remote add gh-refrence https://...
+    git push -u gh-reference master
 
 
 -- Useful linux commands --

@@ -1,0 +1,48 @@
+-- Help and Config --
+    git help 
+    git help commit
+
+    git config --list
+    git config user.email
+    git config --global user.name "Rhaul"
+    git config --global user.email ""
+
+-- Basic Commands to check in or revert code --
+    git init
+
+    git status
+
+    git diff
+    git diff <file-name>
+    git diff --staged
+
+    git add .
+    git checkout -- logs.txt
+    git checkout 01de57 -- logs.txt
+    git rm logs.txt
+    git reset HEAD logs.txt
+    git commit -m "Initial commit"
+    git commit -am "Without staging"
+
+    git log
+    git log --author="Rahul"
+
+    git add new-name
+    git rm old-name
+    OR
+    git mv old-name new-name
+    git mv old-name new-folder/new-name
+
+
+-- Commands to connect to a remote repo -- 
+    git remote
+    git remote add gh-refrence https://...
+
+
+-- Useful linux commands --
+    pwd
+    ls  ls -la
+    cd  cd ..
+    touch <file-name>
+    rm <f>
+    mv <f> <f>
